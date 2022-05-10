@@ -1,0 +1,93 @@
+@font-face {
+  font-family: kitypec;
+  src: url(../fonts/KITYPEC_.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #600080;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #logo {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header #logo #first {
+  font-family: kitypec;
+  color: #4387cc;
+}
+
+header #logo #middle {
+  font-family: kitypec;
+  color: #5c911b;
+}
+
+header #logo #last {
+  font-family: kitypec;
+  color: #8a4419;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+header ul li a:hover {
+  background: #fff;
+  color: #2b1055;
+}
+
+header ul li .active {
+  background: #b9b6b6;
+  color: #2b1055;
+}
+/*# sourceMappingURL=main.css.map */
