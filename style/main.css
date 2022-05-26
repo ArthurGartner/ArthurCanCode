@@ -17,77 +17,26 @@ body {
   background: #600080;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header #logo {
-  font-weight: 700;
+.logo {
+  font-weight: 600;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-header #logo #first {
+.logo #first {
   font-family: kitypec;
-  color: #4387cc;
+  color: #e19460;
 }
 
-header #logo #middle {
+.logo #middle {
   font-family: kitypec;
-  color: #5c911b;
+  color: #00b0f0;
 }
 
-header #logo #last {
+.logo #last {
   font-family: kitypec;
-  color: #8a4419;
-}
-
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header ul li {
-  list-style: none;
-  margin-left: 30px;
-}
-
-header ul li a {
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
-}
-
-header ul li a:hover {
-  background: #fff;
-  color: #2b1055;
-}
-
-header ul li .active {
-  background: #b9b6b6;
-  color: #2b1055;
+  color: #87ba65;
 }
 /*# sourceMappingURL=main.css.map */
