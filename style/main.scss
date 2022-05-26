@@ -15,6 +15,18 @@ body {
   background: rgb(96, 0, 128);
 }
 
+.hero {
+  height: 100vh;
+
+  h1 {
+    height: 100%;
+  }
+}
+
+.crayon {
+  font-family: kitypec;
+}
+
 .logo {
   font-weight: 600;
   text-decoration: none;

@@ -17,6 +17,18 @@ body {
   background: #600080;
 }
 
+.hero {
+  height: 100vh;
+}
+
+.hero h1 {
+  height: 100%;
+}
+
+.crayon {
+  font-family: kitypec;
+}
+
 .logo {
   font-weight: 600;
   text-decoration: none;
