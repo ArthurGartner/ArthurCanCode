@@ -1,0 +1,54 @@
+@font-face {
+  font-family: kitypec;
+  src: url(../fonts/KITYPEC_.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #600080;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero h1 {
+  height: 100%;
+}
+
+.crayon {
+  font-family: kitypec;
+}
+
+.logo {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.logo #first {
+  font-family: kitypec;
+  color: #e19460;
+}
+
+.logo #middle {
+  font-family: kitypec;
+  color: #00b0f0;
+}
+
+.logo #last {
+  font-family: kitypec;
+  color: #87ba65;
+}
+/*# sourceMappingURL=main.css.map */
